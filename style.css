@@ -2,7 +2,7 @@
   margin: 0; /*Para retirar a margin padrão*/
   padding: 0; /*Para retirar a padding padrão*/
   box-sizing: border-box;
-  font-size: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 html {
@@ -31,6 +31,34 @@ body {
   margin-right: 20px;
 }
 
+/*Showcase*/
+.showcase-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  justify-content: center;
+  margin-top: 60px;
+  /*padding-left: 30px;
+  padding-right: 30px;*/
+}
+
+.showcase-container .showcase-text > h2:first-child {
+  font-size: 3.125rem;
+  font-weight: 700;
+  color: #2a394f;
+}
+
+.showcase-container .showcase-text > h2:last-child {
+  font-size: 5.125rem;
+  font-weight: 700;
+  color: #2a394f;
+}
+
+.showcase-container .showcase-text > p {
+  color: #9aa0a8;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
 
 /* Utilidades*/
 .custom-input {
