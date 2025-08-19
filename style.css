@@ -38,8 +38,8 @@ body {
   justify-content: space-between;
   justify-content: center;
   margin-top: 60px;
-  /*padding-left: 30px;
-  padding-right: 30px;*/
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .showcase-container .showcase-text > h2:first-child {
